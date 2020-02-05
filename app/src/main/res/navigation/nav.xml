@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/accountRecordFragment"
+        android:name="com.me.familybookkeepingbook.AccountRecordFragment"
+        android:label="account_record"
+        tools:layout="@layout/fragment_account_record">
+        <action
+            android:id="@+id/action_accountRecordFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_accountRecordFragment_to_chertFragment"
+            app:destination="@id/chertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.me.familybookkeepingbook.addFragment"
+        android:label="add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.me.familybookkeepingbook.loginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_accountRecordFragment"
+            app:destination="@id/accountRecordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_userAddFragment"
+            app:destination="@id/userAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userAddFragment"
+        android:name="com.me.familybookkeepingbook.UserAddFragment"
+        android:label="fragment_user_add"
+        tools:layout="@layout/fragment_user_add" >
+        <action
+            android:id="@+id/action_userAddFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chertFragment"
+        android:name="com.me.familybookkeepingbook.chertFragment"
+        android:label="fragment_chert"
+        tools:layout="@layout/fragment_chert" />
+</navigation>

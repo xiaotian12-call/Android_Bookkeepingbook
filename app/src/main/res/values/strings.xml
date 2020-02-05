@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FamilyBookkeepingBook</string>
+    <string name="textview">TextView</string>
+    <string name="buttonInsert">insert</string>
+    <string name="buttonDalete">delete</string>
+    <string name="textviewid">TextViewid</string>
+    <string name="textviewtype">textviewtype</string>
+    <string name="textviewtime">textviewtime</string>
+    <string name="textviewmoney">textviewmoney</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="button_submit">add</string>
+    <string name="cost_type">Cost Type</string>
+    <string name="cost_time">Cost Time</string>
+    <string name="cost_money">Cost Money</string>
+    <string name="account_record_title">Add Account Record</string>
+    <string name="menu_claer">menu_claer</string>
+    <string name="menu_chart">menu_chart</string>
+    <string name="menu_saerch_1">menu_saerch_1</string>
+    <string name="title_text">记账本</string>
+    <string name="dec">login image</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="login">登入</string>
+    <string name="button_registe">注册</string>
+    <string name="user_add_tltle">user add tltle</string>
+    <string name="user_add_username">用户名</string>
+    <string name="user_add_password">密码</string>
+    <string name="user_add_repressword">确认密码</string>
+</resources>
